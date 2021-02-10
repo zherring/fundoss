@@ -1,0 +1,142 @@
+.button, .button:hover, .button:active {
+  padding: 0.5rem 1.5rem;
+  border-radius: 5px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  cursor: pointer;
+  color: #9650EC;
+  border: 1px solid #9650EC;
+  text-decoration: none;
+}
+.button.main, .button:hover.main, .button:active.main {
+  background: #9650EC;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background: #0E0C4D url("/img/confetti-color.png") no-repeat top left;
+  background-size: contain;
+  display: flex;
+  flex-direction: row;
+  font-family: Helvetica, arial, sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: "Poppins", "Roboto Slab", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h1 {
+  font-size: 2.4rem;
+}
+
+a, a:visited, a:hover, a:active {
+  color: #5AE2A1;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+body > div {
+  padding: 2.5rem;
+}
+
+#left, #right {
+  width: 50vw;
+}
+
+#left {
+  width: 50vw;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#left #social {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2rem;
+}
+#left #social a {
+  margin-right: 1rem;
+}
+#left #social span {
+  display: none;
+}
+#left footer {
+  font-size: 0.85rem;
+  opacity: 0.8;
+}
+
+#right {
+  overflow: scroll;
+  width: 50vw;
+  min-width: 680px;
+  background: #fff url("/img/confetti-mono.png") no-repeat top left;
+  background-size: contain;
+  border-radius: 50px 0 0 50px;
+  height: 100vh;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+#right #container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 610px;
+  margin: 0 auto;
+}
+#right #container > div {
+  width: 48%;
+  background: #F1F1F1;
+  border-radius: 16px;
+  padding: 2.5rem;
+  justify-content: space-around;
+}
+#right div#sign-up {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  body {
+    display: inherit;
+  }
+
+  #left, #right {
+    width: 100%;
+    min-width: 100%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  #left, #right {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  #left, #right {
+    width: 100%;
+  }
+
+  #container > div {
+    width: 100%;
+  }
+}

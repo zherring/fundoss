@@ -33,6 +33,16 @@
 		"oAP": "/browserconfig.xml",
 		"oF": 0
 		},
+	"/css/base.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/base-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/css/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -240,6 +250,58 @@
 		"oAP": "/img/.gitignore",
 		"oF": 0
 		},
+	"/img/confetti-color.png": {
+		"ft": 32768,
+		"iS": 14293,
+		"oA": 0,
+		"oAP": "/img/confetti-color.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/confetti-mono.png": {
+		"ft": 32768,
+		"iS": 6231,
+		"oA": 0,
+		"oAP": "/img/confetti-mono.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/mail.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/mail.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -312,6 +374,58 @@
 		"oA": 0,
 		"oAP": "/robots.txt",
 		"oF": 0
+		},
+	"/scss/_breakpoints.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_breakpoints.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/_constructors.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_constructors.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/_var.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/css/_var.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/scss/base.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/css/base.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
 		},
 	"/site.webmanifest": {
 		"cB": 0,
@@ -2385,10 +2499,10 @@
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.css",
-		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathRelativePath": "../../css",
 		"autoOutputPathReplace1": "sass",
 		"autoOutputPathReplace2": "css",
-		"autoOutputPathStyle": 0,
+		"autoOutputPathStyle": 2,
 		"compilerType": 0,
 		"createSourceMap": 0,
 		"decimalPrecision": 10,
