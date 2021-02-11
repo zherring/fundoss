@@ -50,15 +50,17 @@ body { display: inherit;}
 body { display: inherit;}
 
 #left { height: inherit;
-  #social { display: none; }
 
- }
 #right { background: $white; }
 #left, #right {
   width: 100%;
   min-width: 100%;
   height: unset;
   text-align: center;
+  }
+
+  #logo-wall {
+    align-self: center;
   }
 
 }
@@ -75,15 +77,11 @@ body { display: inherit;}
   height: unset;
   text-align: center;
   }
-  #left {
-    #social { display: none; }
-
-  }
-
+  
   #logo-wall {
     align-self: center;
   }
-  
+
 }
 // For typical desktop
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
