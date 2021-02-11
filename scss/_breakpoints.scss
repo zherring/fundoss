@@ -30,6 +30,10 @@ body { display: inherit;}
     text-align: center;
     }
 
+    #logo-wall {
+      align-self: center;
+    }
+
     #left {
       #social { display: none; }
     }
@@ -76,10 +80,10 @@ body { display: inherit;}
 
   }
 
-
-#container > div {
-  width: 100%;
+  #logo-wall {
+    align-self: center;
   }
+  
 }
 // For typical desktop
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {

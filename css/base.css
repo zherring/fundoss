@@ -1,4 +1,4 @@
-.button, .button:hover, .button:visited, .button:active {
+.button, .button:hover, .button:active {
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   font-family: Poppins;
@@ -34,7 +34,7 @@ body {
   font-family: Helvetica, arial, sans-serif;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3 {
   font-family: "Poppins", "Roboto Slab", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
@@ -47,11 +47,6 @@ h1 {
   font-size: 2.4rem;
 }
 
-h4 {
-  font-weight: 600;
-  color: $lgprpl;
-
-}
 a, a:visited, a:hover, a:active {
   color: #5AE2A1;
   font-weight: bold;
@@ -74,11 +69,9 @@ body > div {
   flex-direction: column;
   justify-content: center;
 }
-
-#logo-wall {
-  max-width: 400px;
+#left #logo-wall {
+  max-width: 22rem;
 }
-
 #left #social {
   margin: 1.5rem 0;
   display: flex;
@@ -187,6 +180,10 @@ body > div {
     text-align: center;
   }
 
+  #logo-wall {
+    align-self: center;
+  }
+
   #left #social {
     display: none;
   }
@@ -247,7 +244,7 @@ body > div {
     display: none;
   }
 
-  #container > div {
-    width: 100%;
+  #logo-wall {
+    align-self: center;
   }
 }

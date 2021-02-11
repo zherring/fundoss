@@ -44,11 +44,15 @@ body > div {
   flex-direction: column;
   justify-content: center;
 
+
+  #logo-wall { max-width: 22rem; }
+
   #social {
     margin: 1.5rem 0;
     display: flex;
     flex-direction: row;
     margin-bottom: 2rem;
+    display: none;
     a { margin-right: 1rem; }
     span { display: none; }
   }
