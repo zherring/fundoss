@@ -1,4 +1,4 @@
-.button, .button:hover, .button:active {
+.button, .button:hover, .button:active, .button:visited {
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   font-family: Poppins;
@@ -12,7 +12,7 @@
   border: 1px solid #9650EC;
   text-decoration: none;
 }
-.button.main, .button:hover.main, .button:active.main {
+.button.main, .button:hover.main, .button:active.main, .button:visited.main {
   background: #9650EC;
   color: #fff;
 }
@@ -91,7 +91,7 @@ body > div {
 }
 
 #right {
-  overflow: scroll;
+  overflow-y: scroll;
   width: 50vw;
   min-width: 680px;
   background: #fff url("/img/confetti-mono.png") no-repeat top left;
