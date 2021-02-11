@@ -34,7 +34,7 @@ body {
   font-family: Helvetica, arial, sans-serif;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: "Poppins", "Roboto Slab", Helvetica, Arial, sans-serif;
   font-weight: 900;
 }
@@ -47,6 +47,11 @@ h1 {
   font-size: 2.4rem;
 }
 
+h4 {
+  font-weight: 600;
+  color: $lgprpl;
+
+}
 a, a:visited, a:hover, a:active {
   color: #5AE2A1;
   font-weight: bold;
@@ -69,11 +74,17 @@ body > div {
   flex-direction: column;
   justify-content: center;
 }
+
+#logo-wall {
+  max-width: 400px;
+}
+
 #left #social {
   margin: 1.5rem 0;
   display: flex;
   flex-direction: row;
   margin-bottom: 2rem;
+  display: none;
 }
 #left #social a {
   margin-right: 1rem;

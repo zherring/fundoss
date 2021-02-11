@@ -212,6 +212,22 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/browserconfig.xml",
+		"oF": 0
+		},
+	"/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/CNAME",
+		"oF": 0
+		},
 	"/css/base.css": {
 		"aP": 1,
 		"bl": 0,
@@ -427,6 +443,14 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
+		},
 	"/humans.txt": {
 		"cB": 0,
 		"ft": 8192,
@@ -486,6 +510,38 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/logo-wall.jpg": {
+		"ft": 16384,
+		"iS": 8138,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/logo-wall.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/logo-wall.png": {
+		"ft": 32768,
+		"iS": 6361,
+		"oA": 0,
+		"oAP": "/img/logo-wall.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/logo-wall.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/logo-wall.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -506,6 +562,26 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/img/sustain-w.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/sustain-w.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/img/sustain.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/sustain.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/twitter.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -515,6 +591,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/unfurl.jpg": {
+		"ft": 16384,
+		"iS": 68396,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/unfurl.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/index.html": {
 		"cB": 0,
