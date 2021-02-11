@@ -1,4 +1,4 @@
-.button, .button:hover, .button:active {
+.button, .button:hover, .button:visited, .button:active {
   padding: 0.5rem 1.5rem;
   border-radius: 5px;
   font-family: Poppins;
@@ -96,21 +96,38 @@ body > div {
   height: 100vh;
   text-align: center;
   padding-bottom: 1rem;
-}
-#right #container {
   display: flex;
-  flex-wrap: wrap;
   flex-direction: row;
+  flex: 1 1 auto;
+  flex-wrap: wrap;
   justify-content: space-between;
-  max-width: 610px;
-  margin: 0 auto;
+  align-content: center;
 }
-#right #container > div {
+#right h2 {
+  width: 100%;
+}
+#right h3 {
+  position: relative;
+  display: fl-ex;
+  flex-direction: ro-w;
+}
+#right h3 i {
+  font-style: normal;
+  font-size: 1.8em;
+}
+#right h3 span {
+  text-align: left;
+  margin-left: 1ch;
+}
+#right > div {
   width: 48%;
   background: #F1F1F1;
   border-radius: 16px;
   padding: 2.5rem;
-  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #right div#sign-up {
   width: 100%;
@@ -124,16 +141,99 @@ body > div {
   #left, #right {
     width: 100%;
     min-width: 100%;
+    text-align: center;
+  }
+
+  #left, #right {
+    height: unset;
+  }
+
+  #left #social {
+    display: none;
+  }
+
+  #right {
+    background: #fff;
+    border-radius: 0;
+  }
+  #right h2 i {
+    display: none;
+  }
+  #right > div {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  body {
+    display: inherit;
+  }
+
+  #left, #right {
+    width: 100%;
+    min-width: 100%;
+    height: unset;
+    text-align: center;
+  }
+
+  #left #social {
+    display: none;
+  }
+
+  #right {
+    background: #fff;
+    border-radius: 0;
+  }
+  #right > div {
+    width: 100%;
+    margin-bottom: 1rem;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
+  body {
+    display: inherit;
+  }
+
+  #left {
+    height: inherit;
+  }
+  #left #social {
+    display: none;
+  }
+
+  #right {
+    background: #fff;
+  }
+
   #left, #right {
     width: 100%;
+    min-width: 100%;
+    height: unset;
+    text-align: center;
   }
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px) {
+  body {
+    display: inherit;
+  }
+
+  #left {
+    height: inherit;
+  }
+
+  #right {
+    background: #fff;
+  }
+
   #left, #right {
     width: 100%;
+    min-width: 100%;
+    height: unset;
+    text-align: center;
+  }
+
+  #left #social {
+    display: none;
   }
 
   #container > div {

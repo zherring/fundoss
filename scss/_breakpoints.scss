@@ -4,27 +4,79 @@ body { display: inherit;}
 #left, #right {
   width: 100%;
   min-width: 100%;
+  text-align: center;
   }
+  #left, #right { height: unset; }
 
+#left {
+  #social { display: none; }
+}
+#right {
+  background: $white;
+  border-radius: 0;
+  h2 i { display: none; }
+  > div { width: 100%; margin-bottom: 1rem; }
+  }
 
 }
 // For mobile (landscape)
 @media only screen and (min-width: 480px) and (max-width: 767px) {
 //CSS Code
+  body { display: inherit;}
+  #left, #right {
+    width: 100%;
+    min-width: 100%;
+    height: unset;
+    text-align: center;
+    }
+
+    #left {
+      #social { display: none; }
+    }
+    #right {
+      background: $white;
+      border-radius: 0;
+      > div { width: 100%; margin-bottom: 1rem; }
+
+
+    }
 }
 // For tablet
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-//CSS Code
+body { display: inherit;}
+
+#left { height: inherit;
+  #social { display: none; }
+
+ }
+#right { background: $white; }
 #left, #right {
   width: 100%;
+  min-width: 100%;
+  height: unset;
+  text-align: center;
   }
+
 }
 // For small desktop
 @media only screen and (min-width: 980px) and (max-width: 1023px) {
 //CSS Code
+body { display: inherit;}
+
+#left { height: inherit; }
+#right { background: $white; }
 #left, #right {
   width: 100%;
+  min-width: 100%;
+  height: unset;
+  text-align: center;
   }
+  #left {
+    #social { display: none; }
+
+  }
+
+
 #container > div {
   width: 100%;
   }
