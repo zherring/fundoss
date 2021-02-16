@@ -15,6 +15,7 @@
 .button.main, .button:hover.main, .button:active.main, .button:visited.main {
   background: #9650EC;
   color: #fff;
+  margin-bottom: 0.85rem;
 }
 
 * {
@@ -91,7 +92,7 @@ body > div {
 }
 
 #right {
-  overflow-y: scroll;
+  overflow: scroll;
   width: 50vw;
   min-width: 680px;
   background: #fff url("/img/confetti-mono.png") no-repeat top left;
@@ -105,7 +106,6 @@ body > div {
   flex: 1 1 auto;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-content: center;
 }
 #right h2 {
   width: 100%;
@@ -198,15 +198,8 @@ body > div {
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 979px) {
-  body {
-    display: inherit;
-  }
-
   #left {
     height: inherit;
-  }
-  #left #social {
-    display: none;
   }
 
   #right {
@@ -218,6 +211,10 @@ body > div {
     min-width: 100%;
     height: unset;
     text-align: center;
+  }
+
+  #logo-wall {
+    align-self: center;
   }
 }
 @media only screen and (min-width: 980px) and (max-width: 1023px) {
@@ -238,10 +235,6 @@ body > div {
     min-width: 100%;
     height: unset;
     text-align: center;
-  }
-
-  #left #social {
-    display: none;
   }
 
   #logo-wall {

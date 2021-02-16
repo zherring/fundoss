@@ -10,7 +10,7 @@ body { display: inherit;}
 
 #left {
   #social { display: none; }
-}
+  }
 #right {
   background: $white;
   border-radius: 0;
@@ -28,40 +28,37 @@ body { display: inherit;}
     min-width: 100%;
     height: unset;
     text-align: center;
-    }
-
-    #logo-wall {
-      align-self: center;
-    }
-
-    #left {
-      #social { display: none; }
-    }
-    #right {
-      background: $white;
-      border-radius: 0;
-      > div { width: 100%; margin-bottom: 1rem; }
-
-
-    }
-}
-// For tablet
-@media only screen and (min-width: 768px) and (max-width: 979px) {
-body { display: inherit;}
-
-#left { height: inherit;
-
-#right { background: $white; }
-#left, #right {
-  width: 100%;
-  min-width: 100%;
-  height: unset;
-  text-align: center;
   }
 
   #logo-wall {
     align-self: center;
   }
+
+  #left {
+    #social { display: none; }
+  }
+
+  #right {
+    background: $white;
+    border-radius: 0;
+    > div { width: 100%; margin-bottom: 1rem; }
+    }
+}
+// For tablet
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+
+  #left { height: inherit; }
+  #right { background: $white; }
+  #left, #right {
+    width: 100%;
+    min-width: 100%;
+    height: unset;
+    text-align: center;
+    }
+
+    #logo-wall {
+      align-self: center;
+    }
 
 }
 // For small desktop
@@ -71,13 +68,14 @@ body { display: inherit;}
 
 #left { height: inherit; }
 #right { background: $white; }
+
 #left, #right {
   width: 100%;
   min-width: 100%;
   height: unset;
   text-align: center;
   }
-  
+
   #logo-wall {
     align-self: center;
   }
