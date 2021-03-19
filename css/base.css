@@ -28,7 +28,7 @@ body, html {
 }
 
 body {
-  background: #0E0C4D url("/img/confetti-color.png") no-repeat top left;
+  background: #110F4C url("/img/confetti-color.png") no-repeat top left;
   background-size: contain;
   display: flex;
   flex-direction: row;

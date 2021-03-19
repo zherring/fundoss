@@ -459,17 +459,6 @@
 		"oAP": "/humans.txt",
 		"oF": 0
 		},
-	"/icon.png": {
-		"ft": 32768,
-		"iS": 4029,
-		"oA": 0,
-		"oAP": "/icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/img/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -509,6 +498,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/individual-dr.jpg": {
+		"ft": 16384,
+		"iS": 1804454,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/individual-dr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/logo-wall.jpg": {
 		"ft": 16384,
@@ -561,6 +561,17 @@
 		"opt": 0,
 		"plM": 52780316221407,
 		"prP": 0
+		},
+	"/img/matching-panel.jpg": {
+		"ft": 16384,
+		"iS": 181894,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/matching-panel.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/img/OSC_Logo.svg": {
 		"ft": 2097152,
@@ -797,28 +808,6 @@
 		"oA": 0,
 		"oAP": "/site.webmanifest",
 		"oF": 0
-		},
-	"/tile-wide.png": {
-		"ft": 32768,
-		"iS": 1854,
-		"oA": 0,
-		"oAP": "/tile-wide.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/tile.png": {
-		"ft": 32768,
-		"iS": 3482,
-		"oA": 0,
-		"oAP": "/tile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		}
 	},
 "hooks": [
