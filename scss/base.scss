@@ -6,8 +6,9 @@
 body, html { width: 100%; height: 100%; }
 
 body {
-  background: $dkprpl url('/img/confetti-color.png') no-repeat top left;
-  background-size: contain;
+  background: $dkprpl url('/img/bg-seamless.svg') repeat-x top left;
+  background-size: 40%;
+  background-position: 0 -17rem;
   display: flex;
   flex-direction: row;
   font-family: Helvetica, arial, sans-serif;
@@ -70,8 +71,8 @@ body > div {
   overflow: scroll;
   width: 50vw;
   min-width: 680px;
-  background: $white url('/img/confetti-mono.png') no-repeat top left;
-  background-size: contain;
+  background: $white;
+
   border-radius: 50px 0 0 50px;
   height: 100vh;
   text-align: center;

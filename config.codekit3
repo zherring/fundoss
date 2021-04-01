@@ -467,6 +467,16 @@
 		"oAP": "/img/.gitignore",
 		"oF": 0
 		},
+	"/img/bg-seamless.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/bg-seamless.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/img/confetti-color.png": {
 		"ft": 32768,
 		"iS": 14293,
@@ -505,6 +515,39 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/img/individual-dr.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Instagram post - 4.jpg": {
+		"ft": 16384,
+		"iS": 2333188,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Instagram post - 4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Instagram post - 5.jpg": {
+		"ft": 16384,
+		"iS": 2153567,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Instagram post - 5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Instagram post - 6.jpg": {
+		"ft": 16384,
+		"iS": 2509252,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Instagram post - 6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
