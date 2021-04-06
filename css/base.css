@@ -59,6 +59,13 @@ body > div {
   padding: 2.5rem;
 }
 
+#hero-splash {
+  width: 100vw;
+  height: 100vh;
+  background: url("/img/hero.svg") no-repeat bottom center, url("/img/bg-seamless.svg") repeat top left;
+  background-size: 35rem, 46rem;
+}
+
 #left, #right {
   width: 50vw;
 }
